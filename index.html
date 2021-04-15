@@ -31,14 +31,32 @@
 
     <div id="">
      <form id="survey-form" action="">
-        <label id="" for="name">Name:</label>
+        <label id="name-label" for="name">Name:</label>
         <input id="name" type="text" placeholder="enter your name" required><br><br>
 
-        <label for="Email" id="">Email:</label>
+        <label for="Email" id="email-label">Email:</label>
         <input id="email" type="email" placeholder="enter your email" required><br><br>
 
-        <label for="Age" id="">Age:</label>
-        <input id="number" type="number" min=18 max=100 placeholder="enter your age" required>
+        <label for="Age" id="number-label">Age:</label>
+        <input id="number" type="number" min=18 max=100 placeholder="enter age" required><br><br>
+
+
+            <label id="dropdown">Which option best describes your current role?</label>
+
+            <select name="dropdown" id="dropdown">
+            <option value="student">Student</option>
+            <option value="working">Working professional</option>
+            <option value="other">Other</option>
+            </select>
+                <br><br>
+
+            <p>Please select your gender:</p>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
 
         
         
